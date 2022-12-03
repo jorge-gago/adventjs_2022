@@ -5,10 +5,8 @@ function countHours(year, holidays) {
     let horasExtra = 0
     holidays.map(day => {
         let date = `${day}/${year}`
-        console.log(date)
         let weekday = new Date(date)
         date = weekday.getDay()
-        console.log(date)
         if ( date !== 0 && date !== 6) {
             horasExtra += 2
         }
