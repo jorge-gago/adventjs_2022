@@ -7,7 +7,7 @@ function distributeGifts(packOfGifts, reindeers) {
 
     console.log(carga)
     console.log(capacidad)
-    return Math.floor(capacidad / carga)
+    return capacidad / carga >> 0
 }
 
 function contarTotal(lista) {
