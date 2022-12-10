@@ -1,6 +1,8 @@
 const leds = [0, 0, 1, 0, 0]
 countTime(leds)
 
+// v2 reduce { map }
+
 function countTime(leds) {
     let copia = [...leds]
     let temp = []
