@@ -1,7 +1,7 @@
 const distance = 30
 const sleighs = [
-  { name: "Dasher", consumption: 0.3 },
-  { name: "Dancer", consumption: 0.5 },
+  { name: "Dasher", consumption: 0.7 },
+  { name: "Dancer", consumption: 0.7 },
   { name: "Rudolph", consumption: 0.7 },
   { name: "Midu", consumption: 1 }
 ]
@@ -18,5 +18,5 @@ function selectSleigh(distance, sleighs) {
         }
     }
 
-    return lista.at(-1) 
+    return lista.at(-1)
 }
